@@ -8,7 +8,7 @@ URL ?= http://127.0.0.1:8080
 API_URL ?= http://127.0.0.1:8081
 
 # höchstes gebautes Level (Standard für `make check` ohne .run/level)
-MAX_LEVEL := 7
+MAX_LEVEL := 8
 
 RUN := .run
 DB := $(RUN)/levelboard.db
